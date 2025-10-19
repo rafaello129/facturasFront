@@ -6,7 +6,7 @@ import { useUiStore } from "./presentation/store/ui/useUiStore";
 export const App = () => {
   const { error, success, setError, setSuccess } = useUiStore();
   return ( 
-    <>
+    <> 
       {/* Alerts */}
       {error && (
         <CustomAlert message={error} type="error" onClose={() => setError(null)} />
