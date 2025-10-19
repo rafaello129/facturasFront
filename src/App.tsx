@@ -5,7 +5,7 @@ import { useUiStore } from "./presentation/store/ui/useUiStore";
 
 export const App = () => {
   const { error, success, setError, setSuccess } = useUiStore();
-  return (
+  return ( 
     <>
       {/* Alerts */}
       {error && (
